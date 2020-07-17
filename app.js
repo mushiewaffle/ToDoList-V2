@@ -16,7 +16,7 @@ app.use(express.static("public"));
 // const workItems = [];
 
 //==== MongoDB section for storing info ====
-mongoose.connect("mongodb+srv://admin-kevin:kevin961@cluster0.ojjgi.mongodb.net/todolistDB", {useNewUrlParser: true});
+mongoose.connect("<...>", {useNewUrlParser: true});
 //itemsSchema
 const itemsSchema = {
   name: String
